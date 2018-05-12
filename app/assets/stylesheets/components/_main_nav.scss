@@ -1,0 +1,58 @@
+.main-nav {
+  border-bottom: 1px solid $gray;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.left-nav > ul,
+.right-nav > ul {
+  display: flex;
+}
+
+.left-nav > ul > li {
+  padding: 15px;
+  text-transform: uppercase;
+
+}
+
+.right-nav > ul > li {
+  padding: 5px;
+}
+
+.right-nav > ul > li:last-of-type {
+
+margin-top: 5px;
+margin-bottom: 5px;
+  padding: 10px 15px 10px 15px;
+// margin-left: 5px
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+  background: $lightest-gray
+}
+
+.left-nav span {
+  padding: 5px
+}
+
+
+.right-nav i {
+
+
+}
+
+.right-nav > ul > li > button {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 10px 15px 10px 15px;
+  color: #fff;
+  background: $dark-blue
+}
+
+.right-nav > ul > li > button:hover {
+  background: $light-blue;
+}
